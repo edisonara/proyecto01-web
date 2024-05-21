@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.container-vertical {
+.container-horizontal {
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -18,29 +18,26 @@ body {
 }
 
 .col {
-    flex: 1;
     padding: 10px;
     border: 1px solid #ccc;
     background-color: #f0f0f0;
     text-align: center;
 }
 
-.align-self-start {
-    align-self: flex-start;
+
+.custom-style {
+    background-color: #a0d2eb;
 }
 
-.align-self-center {
-    align-self: center;
+
+.justify-content-start {
+    justify-content: flex-start;
 }
 
-.align-self-end {
-    align-self: flex-end;
+.justify-content-around {
+    justify-content: space-around;
 }
 
-.align-items-center {
-    align-items: center;
-}
-
-.align-items-end {
-    align-items: flex-end;
+.justify-content-between {
+    justify-content: space-between;
 }

@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.container-vertical {
+.container-nested {
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -18,29 +18,20 @@ body {
 }
 
 .col {
-    flex: 1;
     padding: 10px;
     border: 1px solid #ccc;
     background-color: #f0f0f0;
     text-align: center;
 }
 
-.align-self-start {
-    align-self: flex-start;
+.nested {
+    background-color: #d4e157; 
 }
 
-.align-self-center {
-    align-self: center;
+.nested .row {
+    margin-bottom: 0; 
 }
 
-.align-self-end {
-    align-self: flex-end;
-}
-
-.align-items-center {
-    align-items: center;
-}
-
-.align-items-end {
-    align-items: flex-end;
+.nested .col {
+    margin: 5px; 
 }

@@ -3,20 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grid Layout</title>
+    <title>Alinear Verticalmente</title>
     <link rel="stylesheet" href="style1.css">
 </head>
 <body>
-    <div class="container">
-        <header class="header">Edison Alexander Arambulo Rojas</header>
-        <main class="main-content">Yo soy estudiante de la universidad de las fuerzas armadas ESPE. Actualmente vivo en Santo Domingo. Me desarrollo en varios campos de tecnologia, por lo que me gusta mucho la programacion. Considerando esto puedo decir que intento mejorar cada dia.</main>
-        <aside class="sidebar"><img src="WhatsApp Image 2024-05-14 at 4.49.03 PM.jpeg" alt="foto">
-        </aside>
-        <div class="twin">
-            <div class="skills">Tengo abilidades como la musica, el diseño y la programacion. </div>
-            <div class="weaknesses">Son muchas podria ser una de mis debilidades seria la falta de empezar algo.</div>
+    <div class="container-vertical">
+        <div class="row">
+            <div class="col align-self-start">inicio</div>
+            <div class="col align-self-center">centro</div>
+            <div class="col align-self-end">fianl</div>
         </div>
-        <footer class="footer">Desarrollo WEB</footer>
+        <div class="row align-items-center">
+            <div class="col">inicio</div>
+            <div class="col">Centro</div>
+            <div class="col">final</div>
+        </div>
+        <div class="row align-items-end">
+            <div class="col">inicio</div>
+            <div class="col">Centro</div>
+            <div class="col">final</div>
+        </div>
     </div>
 </body>
 </html>
